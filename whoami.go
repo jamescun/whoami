@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	Addr    = flag.String("addr", "127.0.0.1:8080", "server listen address")
+	Addr    = flag.String("addr", ":8080", "server listen address")
 	TLS     = flag.Bool("tls", false, "enable transport security")
 	TLSKey  = flag.String("tls-key", "cert.key", "tls private key")
 	TLSCert = flag.String("tls-cert", "cert.pem", "tls certificate")
