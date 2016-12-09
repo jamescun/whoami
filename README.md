@@ -3,6 +3,8 @@ whoami
 
 whoami is a Go microservice that returns information over HTTP(S) about the host that it is running on. The primary purpose of this service is to debug and benchmark containerised network services.
 
+    docker run -p 8080:8080 james/whoami:latest
+
 
 Configuration
 -------------
